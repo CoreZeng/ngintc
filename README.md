@@ -1,2 +1,2 @@
 # ngintc
-NginTC (Nginx Testing belong to  Core)
+NginTC (Next Generation Intelligent Neutron Testing belong to Core)
