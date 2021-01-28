@@ -13,6 +13,7 @@
 /// type defines
 typedef unsigned char _NTC_RUNMODE;  /// NginTC Run Mode
 typedef unsigned char _NTC_MODULE_RUNMODE;  /// NginTC Modlue Run Mode
+
 /**
  * @brief Work Mode Flages: 8 bit 
  * bit 0: Daemon Mode
@@ -33,4 +34,10 @@ enum ModuleMode{
     MODULE_MODE_PROCESS,  /// Run as a process 
 };
 
+/**
+ * @brief feedback, use to return the status of the functions
+ */
+enum NTC_FD{
+    SUCCESS=0,
+};
 #endif
